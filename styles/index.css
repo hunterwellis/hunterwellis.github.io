@@ -1,0 +1,83 @@
+body,
+html {
+	font-family: 'Lucida Console', 'Courier New', monospace;	
+	margin: 0px auto;
+}
+
+p {
+    color: white;
+	letter-spacing: 0.01rem;
+	grid-column: 2 / span 11;
+	grid-row: 3;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+	font-style: normal;
+	overflow-y: scroll;
+	min-height: 150%;
+	height: 100%;
+}
+
+
+canvas {
+  vertical-align: top;
+}
+
+.dg.a {
+	margin-top: 10px;
+	min-width: 300px;
+}
+
+.app-wrapper {
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+}
+
+.markers {
+	position: relative;
+	padding: 0;
+	list-style-type: none;
+}
+
+.marker {
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.marker:before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: -50%;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	border-radius: 10%;
+}
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.scroll {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
