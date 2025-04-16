@@ -4,7 +4,7 @@ template = "homepage.html"
 
 +++
 
-<img src="profile_pic.jpg" alt="profile picture" style="float:left; display: block; margin: 20 20; width: 300px;">
+<img src="/images/profile_pic.jpg" alt="profile picture" style="float:left; display: block; margin: 20 20; width: 300px;">
 
 <br>I am an Electrical & Computer Engineer with interests in control systems and signal processing.
 
@@ -42,16 +42,16 @@ Checkout my [projects](./projects) and [blog posts](./posts).
       <div class="timeline-description">
         <div class="container">
           <div class="image">
-            <img src="JSEG.png" height="74" width=auto>
+            <img src="/images/JSEG.png" height="74" width=auto>
             <br>
             <div class="timeline-date">2024</div>
             <hr>
           </div>
           <div class="text">
                         I worked at NASA's Marshall Space Flight Center with the Jacobs Space Exploration Group as a Thrust Vector Control Intern, developing the active hardware and software components of their new Active Inertial Load Simulator for the Mars Ascent Vehicle.<br><br>
-                    <img src="VAB.jpg" height="200" width=auto style="border-radius: 10px; float:right; margin-left: 15px;">
+                    <img src="/images/VAB.jpg" height="200" width=auto style="border-radius: 10px; float:right; margin-left: 15px;">
                     <video controls="" height="200" width=auto name="Load Simulating Actuator" style="border-radius: 10px; float:right; margin-left: 15px;" autoplay="" muted="">
-                        <source src="actuator.MOV">
+                        <source src="/videos/actuator.MOV">
                     </video>
                         Hardware elements that I aided in the integration of included measurement equipment such as an LVDT and full-bridge pancake load cell and test equipment such as an industrial electromechanical actuator (EMA), which entailed characterization testing and modeling of the physical characteristics of the actuator.<br><br>
                         The software that I developed included a non-linear model of the EMA and software tools used to test EMAs.
@@ -67,7 +67,7 @@ Checkout my [projects](./projects) and [blog posts](./posts).
       <div class="timeline-description">
         <div class="container">
           <div class="image">
-            <img src="VT.png" height="100" width="100">
+            <img src="/images/VT.png" height="100" width="100">
             <br>
             <br>
             <div class="timeline-date">2020-2024</div>
@@ -81,7 +81,7 @@ Bachelor of Science at Virginia Tech with a double major in Computer Engineering
                     designs for the car's lithium-ion battery.
                     For the Human Powered Submarine I used a single board computer to develop a GUI for the submarine pilot,
                     aiding them in navigating and guiding the submarine.<br><br>
-                    <img src="pacman.png" height="110" width=auto style="border-radius: 10px; float:left; margin-right: 15px;">
+                    <img src="/images/pacman.png" height="110" width=auto style="border-radius: 10px; float:left; margin-right: 15px;">
                     I also participated in undegraduate research with Professors Thinh Doan and Michael Hsiao, developing 
                     symbolic reinforcement learning architectures to play atari games.
           </div>
@@ -95,13 +95,13 @@ Bachelor of Science at Virginia Tech with a double major in Computer Engineering
       <div class="timeline-description">
         <div class="container">
           <div class="image">
-            <img src="G2ELAB.png" height="74" width=auto>
+            <img src="/images/G2ELAB.png" height="74" width=auto>
             <br>
             <div class="timeline-date">2023</div>
             <hr>
           </div>
           <div class="text">
-                    <img src="INV.png" height="130" width=auto style="border-radius: 10px; float:right; margin-left: 15px;">
+                    <img src="/images/INV.png" height="130" width=auto style="border-radius: 10px; float:right; margin-left: 15px;">
             I was a Research Intern at the Grenoble Electrical Engineering Laboratory (G2ELab) in Grenoble, France, working on inverter control systems for microgrids &ndash; small power grid systems aiming to avoid future infastructure problems on the French power grid.<br><br>
 I also had the opportunity to witness lots of the research happening at the European Synchotron Radiation Facility (ESRF) and the Institut Laue-Langevin (ILL). 
           </div>
@@ -115,7 +115,7 @@ I also had the opportunity to witness lots of the research happening at the Euro
       <div class="timeline-description">
         <div class="container">
           <div class="image">
-            <img src="NAVSEA.png" height="74" width=auto>
+            <img src="/images/NAVSEA.png" height="74" width=auto>
             <br>
             <div class="timeline-date">2022</div>
             <hr>

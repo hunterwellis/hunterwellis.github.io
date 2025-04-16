@@ -1,10 +1,9 @@
 +++
 title = "About"
-path = "about"
 +++
 
 # Info
-<img src="pfp.jpeg" alt="profile picture" style="margin-left: auto; margin-right: auto; display: block; width: 300px;">
+<img src="/images/pfp.jpeg" alt="profile picture" style="margin-left: auto; margin-right: auto; display: block; width: 300px;">
 
 I am a <span id="ageDisplay"></span> year old Electrical & Computer Engineer who is interested in the intersection of control systems, signal processing, and embedded systems.
 
@@ -22,9 +21,9 @@ I am a <span id="ageDisplay"></span> year old Electrical & Computer Engineer who
 
 # Pictures
 
-<img src="about_pfp.jpg" alt="welding picture" style="float:left; display: block; margin: 5 5; height: 300px;">
-<img src="boat_sit.jpg" alt="boat picture" style="float:left; display: block; margin: 5 5; height: 300px;">
-<img src="fastrac.jpg" alt="fastrac picture" style="float:left; display: block; margin: 5 5; height: 300px;">
+<img src="/images/about_pfp.jpg" alt="welding picture" style="float:left; display: block; margin: 5 5; height: 300px;">
+<img src="/images/boat_sit.jpg" alt="boat picture" style="float:left; display: block; margin: 5 5; height: 300px;">
+<img src="/images/fastrac.jpg" alt="fastrac picture" style="float:left; display: block; margin: 5 5; height: 300px;">
 
 <div style="clear: both;"></div>
 
@@ -52,3 +51,4 @@ Website: [ellishw.tech](https://ellishw.tech)
 
   updateAge();
 </script>
+

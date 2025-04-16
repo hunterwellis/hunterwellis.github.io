@@ -43,11 +43,7 @@ function updateItemToggleTheme() {
 function getSavedTheme() {
     let currentTheme = localStorage.getItem("theme-storage");
     if(!currentTheme) {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            currentTheme = "dark";
-        } else {
-            currentTheme = "light";
-        }
+        currentTheme = "light";
     }
 
     return currentTheme;

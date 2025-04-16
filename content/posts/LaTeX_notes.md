@@ -17,5 +17,5 @@ The formatting of my notes is heavily based on [SeniorMars' LaTeX template](http
 
 Here are some of the notes I have taken so far: 
 
-<embed src="../als_notes.pdf" type="application/pdf" width=100% height=1000px>
+<embed src="/pdfs/als_notes.pdf" type="application/pdf" width=100% height=1000px>
 
