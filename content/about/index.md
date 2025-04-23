@@ -19,7 +19,7 @@ I am a <span id="ageDisplay"></span> year old Electrical & Computer Engineer who
 - Fly Fishing
 - Ultra Running
 
-# Pictures
+# Fun Pictures
 
 <img src="/images/about_pfp.jpg" alt="welding picture" style="float:left; display: block; margin: 5 5; height: 300px;">
 <img src="/images/boat_sit.jpg" alt="boat picture" style="float:left; display: block; margin: 5 5; height: 300px;">
@@ -33,7 +33,13 @@ Email: [elliswhunter@gmail.com](mailto:elliswhunter@gmail.com)
 LinkedIn: [@ellishw](https://www.linkedin.com/in/ellishw)  
 Website: [ellishw.tech](https://ellishw.tech)
 
+
+# Resume
+
+<embed src="/pdfs/Ellis-Hunter-Resume.pdf" type="application/pdf" width=100% height=1122px>
+
 <br>
+
 
 <script>
   const birthDate = new Date("2001-11-20T00:00:00Z");

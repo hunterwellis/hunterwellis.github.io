@@ -15,7 +15,7 @@ Checkout my [projects](./projects) and [blog posts](./posts).
 <br>
 <br>
 
-[PDF Resume](./Ellis-Hunter-Resume.pdf)
+[PDF Resume](/pdfs/Ellis-Hunter-Resume.pdf)
 
 # Experience
 
