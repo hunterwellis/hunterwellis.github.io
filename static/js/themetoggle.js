@@ -43,7 +43,7 @@ function updateItemToggleTheme() {
 function getSavedTheme() {
     let currentTheme = localStorage.getItem("theme-storage");
     if(!currentTheme) {
-        currentTheme = "light";
+        currentTheme = "dark";
     }
 
     return currentTheme;
