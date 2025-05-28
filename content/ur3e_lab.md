@@ -1,6 +1,6 @@
 +++
-title = "Radical AI—skills demo"
-date = "2025-05-26"
+title = "Radical AI—Skills Demo"
+date = "2025-05-28"
 
 [taxonomies]
 # tags=["documentation"]
@@ -9,14 +9,15 @@ date = "2025-05-26"
 # repo_view = true
 # comment = true
 +++
-# Why?
-I think that the work being done at Radical AI is awesome and I would love to be a part of it. I built and designed these projects over the last two days as a skills demo.
 
 # What is this?
 This project includes:
 - ROS2 digital twin for visualization of the UR3e arm.
 - Qt dashboard for monitoring robot telemetry data.
 - Instrumentation integration example.
+
+# Why?
+I think that the work being done at Radical AI is awesome and I would love to be a part of it. I built and designed these projects over the last two days as a skills demo.
 
 # Digital Twin
 
@@ -86,7 +87,7 @@ graph LR
     <i>Typical signal processing pipeline</i>
 </center>
 
-Here I desgined the analog and digital circuitry necessary to read from a photodiode. While photodiodes are probably not relevant to the work being done now I imagine they will be when measuring electromagnetic waves is necessary, additionally they require a more complex analog filtering stage compared many other sensors which would be good to demonstrate my skills in both analog and digital electronics.
+Here I designed the analog and digital circuitry necessary to read from a photodiode. While photodiodes are probably not relevant to the work being done now I imagine they will be when measuring electromagnetic waves is necessary, additionally they require a more complex analog filtering stage compared many other sensors which would be good to demonstrate my skills in both analog and digital electronics.
 
 ## Analog Stage
 
@@ -95,7 +96,7 @@ Here is the analog stage I designed to amplify the current signal and attenuate 
 ### Signal Conditioning
 <img src="/images/TIA_param.png" alt="TIA" height="400" width=auto style="float: right; margin-left: 5">
 
-Using a trans-impedence amplifier to amplify the signal and turn it into a voltage signal. This can be defined with the following transfer function.
+Using a transimpedence amplifier to amplify the signal and turn it into a voltage signal. This can be defined with the following transfer function.
 
 $$\frac{V_{out}(s)}{I_{ph}(s)} = \frac{-R_f}{1+sR_fC_f}$$
 $$\Rightarrow H(s) = 1 + \frac{300k}{4.7k (1 + s * 300k * 27p)}$$
@@ -151,7 +152,8 @@ float iir_filter(float x, float *a, float *b, float *w, int *index) {
     w[*index] = w_new;
 
     // update ring buffer
-    if (*index >= 0){
+    *index++
+    if (*index >= FILTER_ORDER){
         *index = 0;
     }
 
@@ -163,7 +165,7 @@ float iir_filter(float x, float *a, float *b, float *w, int *index) {
 
 # Stepper Motors
 
-I should also note that stepper motors can be easily added to the digital twin. For stepper position tracking a neodymium magnet can be attached to the motor shaft and the position value measured via a magnetic encoder.
+I should also note that stepper motors can be easily integrated to the digital twin. For stepper position tracking a neodymium magnet can be attached to the motor shaft and the position value measured via a magnetic encoder.
 
 <img src="/images/encoder_mount.png" height="400" width=auto style="float: left; margin-left: auto; margin-right: auto; display: block;">
 <img src="/images/magnet_stepper.png" height="400" width=auto style="float: right; margin-left: auto; margin-right: auto; display: block;">
