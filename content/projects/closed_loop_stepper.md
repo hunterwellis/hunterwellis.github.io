@@ -1,7 +1,7 @@
 +++
 title = "Closed Loop Stepper"
 description = "Making a cheap servo motor for robotics projects. This project is unfinished."
-weight = 2
+weight = 3
 
 [extra]
 local_image = "/images/closed_loop_stepper.jpg"

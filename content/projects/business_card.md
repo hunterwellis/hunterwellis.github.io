@@ -1,7 +1,7 @@
 +++
 title = "PCB Business Card"
 description = "STM32-based business card."
-weight = 1
+weight = 3
 
 [extra]
 local_image = "images/business_card.jpg"

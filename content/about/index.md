@@ -5,7 +5,7 @@ title = "About"
 # Info
 <img src="/images/pfp.jpeg" alt="profile picture" style="margin-left: auto; margin-right: auto; display: block; width: 300px;">
 
-I am a <span id="ageDisplay"></span> year old Electrical & Computer Engineer who is interested in the intersection of control systems, signal processing, and embedded systems.
+I am a <span id="ageDisplay"></span> year old Electrical & Computer Engineer who is interested in the intersection of control systems, robotics, and autonomy.
 
 # Skills & Interests
 - Electrical & Computer Engineering

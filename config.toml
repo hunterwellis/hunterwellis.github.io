@@ -39,6 +39,7 @@ menu = [
 socials = [
     { name = "github", url = "https://github.com/hunterwellis/", icon = "github" },
     { name = "linkedin", url = "https://www.linkedin.com/in/ellishw/", icon = "linkedin" },
+    { name = "mail", url = "mailto:elliswhunter+website@gmail.com", icon = "email" },
     # { name = "youtube", url = "https://www.linkedin.com/in/ellishw/", icon = "youtube" },
 ]
 

@@ -1,7 +1,7 @@
 +++
 title = "LQI Rocket"
 description = "Landing a simulated rocket in MATLAB using optimal control."
-weight = 0
+weight = 2
 
 [extra]
 local_image = "/images/rocket_LQI.gif"
